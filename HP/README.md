@@ -66,7 +66,7 @@ y dentro un archivo llamado `launch.json` con el siguiente contenido:
   ]
 }
 
-
+```
 
 ## 📌 Salida esperada
 
