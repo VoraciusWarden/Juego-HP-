@@ -47,6 +47,12 @@ Si usas **Visual Studio Code**, puedes crear la carpeta ".vscode/" en la raíz d
 y dentro un archivo llamado "launch.json" con el siguiente contenido:
 
 
+## ⚙️ Configuración en VS Code
+
+Si usas **Visual Studio Code**, puedes crear la carpeta `.vscode/` en la raíz del proyecto  
+y dentro un archivo llamado `launch.json` con el siguiente contenido:
+
+```json
 {
   "version": "0.2.0",
   "configurations": [
@@ -59,6 +65,7 @@ y dentro un archivo llamado "launch.json" con el siguiente contenido:
     }
   ]
 }
+
 
 
 ## 📌 Salida esperada
