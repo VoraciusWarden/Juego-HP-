@@ -1,0 +1,66 @@
+# 🎮 Videojuego Harry Potter – Patrón Strategy
+
+Este proyecto implementa el **Patrón de Diseño Strategy** en un videojuego inspirado en la saga de Harry Potter.  
+Cada personaje puede lanzar un hechizo, y con el uso de **Strategy** es posible **cambiar el hechizo de los personajes en tiempo de ejecución**.
+
+---
+
+## 📂 Estructura del Proyecto
+
+```
+juego/
+├── hechizos/
+│   ├── Hechizo.java
+│   ├── WingardiumLeviosa.java
+│   ├── Expelliarmus.java
+│   ├── ExpectoPatronum.java
+│   └── OculusReparo.java
+├── personajes/
+│   └── Personaje.java
+└── main/
+    └── Main.java
+```
+
+---
+
+## ▶️ Ejecución
+
+### Desde la terminal
+Ubícate en la carpeta raíz (`HP/`) y ejecuta:
+
+------------------------------------------------
+
+javac juego/main/Main.java
+java juego.main.Main
+
+------------------------------------------------
+
+
+### Desde VS Code
+1. Asegúrate de tener instalada la **extensión Java**.  
+2. Usa el archivo ".vscode/launch.json" para configurar la ejecución.  
+3. Presiona **Run** en `Main.java` y el programa se ejecutará.
+
+---
+
+## 📌 Salida esperada
+
+```
+Harry Potter lanza: ¡Expecto Patronum! Un guardián mágico aparece.
+-> Harry cambia de hechizo a Expelliarmus
+Harry Potter lanza: ¡Expelliarmus! El oponente pierde su varita.
+
+Ron Weasley lanza: ¡Expelliarmus! El oponente pierde su varita.
+-> Ron cambia de hechizo a Wingardium Leviosa
+Ron Weasley lanza: ¡Wingardium Leviosa! Un objeto empieza a volar.
+
+Hermione Granger lanza: ¡Wingardium Leviosa! Un objeto empieza a volar.
+-> Hermione cambia de hechizo a Oculus Reparo
+Hermione Granger lanza: ¡Oculus Reparo! Los anteojos dañados se reparan instantáneamente.
+```
+
+---
+
+## 📖 Diagrama UML (Mermaid)
+
+
