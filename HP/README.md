@@ -5,7 +5,7 @@ Cada personaje puede lanzar un hechizo, y con el uso de **Strategy** es posible 
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 juego/
@@ -21,27 +21,21 @@ juego/
     └── Main.java
 ```
 
----
-
-## ▶️ Ejecución
+## Ejecución
 
 ### Desde la terminal
 Ubícate en la carpeta raíz (`HP/`) y ejecuta:
-
-------------------------------------------------
-
+```
 javac juego/main/Main.java
 java juego.main.Main
-
-------------------------------------------------
-
+```
 
 ### Desde VS Code
 1. Asegúrate de tener instalada la **extensión Java**.  
 2. Usa el archivo ".vscode/launch.json" para configurar la ejecución.  
 3. Presiona **Run** en `Main.java` y el programa se ejecutará.
 
-   ## ⚙️ Configuración en VS Code
+## ⚙️ Configuración en VS Code
 
 Si usas **Visual Studio Code**, puedes crear la carpeta ".vscode/" en la raíz del proyecto  
 y dentro un archivo llamado "launch.json" con el siguiente contenido:
