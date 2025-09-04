@@ -41,25 +41,6 @@ java juego.main.Main
 2. Usa el archivo ".vscode/launch.json" para configurar la ejecución.  
 3. Presiona **Run** en `Main.java` y el programa se ejecutará.
 
-### Código launch.json:
-
-Si usas **Visual Studio Code**, incluye este archivo en la carpeta `.vscode/launch.json`  
-para ejecutar el proyecto con un solo clic en **Run**:
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "java",
-      "name": "Ejecutar Main",
-      "request": "launch",
-      "mainClass": "juego.main.Main",
-      "projectName": "HP"
-    }
-  ]
-}
-
----
-
 ## 📌 Salida esperada
 
 ```
