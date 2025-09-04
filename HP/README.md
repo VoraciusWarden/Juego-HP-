@@ -57,7 +57,7 @@ Hermione Granger lanza: ¡Wingardium Leviosa! Un objeto empieza a volar.
 Hermione Granger lanza: ¡Oculus Reparo! Los anteojos dañados se reparan instantáneamente.
 ```
 --------------------------------
-## 📖 Diagrama UML (Mermaid)
+## 📖 Diagrama UML :
 <img width="719" height="430" alt="image" src="https://github.com/user-attachments/assets/7ee97790-c3d0-4d1a-ab81-5c869008420b" />
 
 
