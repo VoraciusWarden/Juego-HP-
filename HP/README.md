@@ -1,4 +1,4 @@
-# 🎮 Videojuego Harry Potter – Patrón Strategy
+# Videojuego Harry Potter – Patrón Strategy
 
 Este proyecto implementa el **Patrón de Diseño Strategy** en un videojuego inspirado en la saga de Harry Potter.  
 Cada personaje puede lanzar un hechizo, y con el uso de **Strategy** es posible **cambiar el hechizo de los personajes en tiempo de ejecución**.
@@ -23,19 +23,12 @@ juego/
 
 ## Ejecución
 
-### Desde la terminal
-Ubícate en la carpeta raíz (`HP/`) y ejecuta:
-```
-javac juego/main/Main.java
-java juego.main.Main
-```
-
 ### Desde VS Code
 1. Asegúrate de tener instalada la **extensión Java**.  
 2. Usa el archivo ".vscode/launch.json" para configurar la ejecución.  
 3. Presiona **Run** en `Main.java` y el programa se ejecutará.
 
-## ⚙️ Configuración en VS Code
+## Configuración en VS Code
 
 Si usas **Visual Studio Code**, puedes crear la carpeta ".vscode/" en la raíz del proyecto  
 y dentro un archivo llamado "launch.json" con el siguiente contenido:
